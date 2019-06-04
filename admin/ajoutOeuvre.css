@@ -1,0 +1,172 @@
+
+*
+{
+	margin: 0;
+	padding: 0;
+}	
+	
+	
+.img1 
+{
+	width: 200px; 
+	height: 150px; 
+	float: left;
+	margin-left: 20px;
+}
+	
+body
+{
+	font-family: Arial,sans-serif;
+	font-size: 15px;
+}
+	
+.wrapper
+{
+	width: 1800px;
+	<!-- 0 en haut et en bas auto:donne la moitie a gauche et droite; -->
+	margin: 0 auto;
+	padding: 0 10px;
+	
+}
+	
+	ul
+	{
+		
+		list-style: none;
+	}
+	
+h1
+	{
+		font-family: 'Crete Round',serif;
+		font-size: 45px;
+		color: #444;
+		margin-right: 20px;
+		float: right;
+		margin-top: 32px;
+		
+    }
+.ajout
+{
+
+    font-family: 'Crete Round',serif;
+    font-size: 35px;
+    text-align : center;
+
+
+}
+	
+
+	
+.horizontal
+{
+	margin:0.0;
+	padding: 0.0px;
+	margin-top: 10px;
+	height: 50px;
+	width: auto;
+	background-color: #FF8C00;
+}
+	
+	
+.menu-head {
+	display: inline-block;
+	margin-top: 100px;
+	margin-left: 700px;
+	
+}	
+	
+.Menu
+{
+	
+	list-style: none;
+	
+	
+}	
+
+ul {
+ padding:0;
+ margin:0;
+ list-style-type:none;
+ text-align : center;
+ }
+li {
+ margin-left:2px;
+ float:left; /*pour IE*/
+ 
+ }
+ul li a {
+ display:block;
+ float:left;   
+ width:200px;
+ height: 30px;
+ background-color:#191970;
+ color:black;
+ text-decoration:none;
+ text-align:center;
+ padding:5px;
+ border:2px solid;
+ /*pour avoir un effet "outset" avec IE :*/
+ border-color:#DCDCDC #696969 #696969 #DCDCDC;
+ color : white;
+ font-weight : bolder;
+ }
+ul li a:hover {
+ background-color:#D3D3D3;
+ border-color:#696969 #DCDCDC #DCDCDC #696969;
+ } 
+
+ #contact-form
+{
+	font-size: 20px;
+	background: #fff;
+	padding: 30px;
+	border-radius: 10px;
+
+/*	margin-left: 200px; */
+}
+.form-control
+{    
+
+	height: 50px; 
+	font-size: 18px;
+}	
+.red
+{
+	color: red;
+}
+.comments
+{
+	font-style: italic;
+	font-size: 18px;
+	color: #d82c2e;
+	height: 25px;
+}
+#contact-form input[type=submit]/*bouton envoyer*/
+{
+	margin: 60px auto 10px;
+	display: block;
+
+}
+.button1
+{
+	border: 1px solid #ddd;
+	background: orange;
+	color:black;
+	width: 40%;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 18px; 
+	border-radius: 5px;
+	transition: all 0.3s ease-in 0s;
+}
+.button1:hover
+{
+	background: #EE7F19;
+	border-color: #0069d6;
+}
+.thank-you
+{
+	text-align: center;
+	margin-top: 15px;
+	font-weight: bold;font-size: 22px;
+}
